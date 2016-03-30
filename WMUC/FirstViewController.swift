@@ -34,7 +34,7 @@ class FirstViewController: UIViewController {
         } else if PP.sharedInstance.isPlaying() == true {
             Background.highlighted = true
         }
-
+ 
             if NSClassFromString("MPNowPlayingInfoCenter") != nil {
             let image:UIImage = UIImage(named: "Playa")!
             let albumArt = MPMediaItemArtwork(image: image)
